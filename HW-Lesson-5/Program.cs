@@ -352,9 +352,14 @@ namespace HW_Lesson_5
                     if (arr[i, j] == num)
                     {
                         flag = true;
+                        break;
                     }
-
                 }
+                if (flag == true)
+                {
+                    break;
+                }
+
             }
 
             if (flag)
